@@ -1,0 +1,15 @@
+.jumbotron {
+    background: url("http://bgfons.com/uploads/paint/paint_texture2173.jpg");
+    background-color: rgb(202, 79, 79);
+
+}
+
+h1 {
+    color: goldenrod; 
+    font-size: 48px%;
+    font-family: fantasy; 
+}
+button {
+
+    background-color: yellow;
+}
