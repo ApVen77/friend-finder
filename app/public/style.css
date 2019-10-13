@@ -6,7 +6,7 @@
 
 h1 {
     color: goldenrod; 
-    font-size: 48px%;
+    font-size: 48px;
     font-family: fantasy; 
 }
 
@@ -17,7 +17,18 @@ h2 {
 h3 {
     color: goldenrod; 
 }
-button {
 
-    background-color: yellow;
+h4, h5 {
+    font-size: 25px;
 }
+
+
+
+.section {
+    padding: 
+    
+}
+        .submitButton {
+        
+        margin-top: 27px;
+        }
