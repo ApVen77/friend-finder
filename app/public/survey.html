@@ -176,9 +176,9 @@
                     </div>
                     <script type="text/javascript">
                         //takes info and sends to friends.js//
-                        $(document).ready(function () {
-                            $(submitButton).on("click", function () {
-
+                       
+                            $(".submitButton").on("click", function () {
+                                event.preventDefault()
                                 function verifyForm() {
                                     var isValid = true;
                                     $('.validate').each(function () {
@@ -244,12 +244,12 @@
 
 
                                 else {
-                                    console.log("Plese complete required fields");
+                                    console.log("Please complete required fields");
                                 }
                             });
-                        })
+                       
 
-                    </script>
+                    </script> 
 </body>
 
 </html>

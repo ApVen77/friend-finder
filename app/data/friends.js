@@ -17,20 +17,69 @@ var friends = [
         1
       ]
   },{
-    "name":"Ahmed",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Crystal",
+    "photo":"https://images.pexels.com/photos/2891541/pexels-photo-2891541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "scores":[
-        5,
-        1,
-        4,
-        4,
-        5,
+        3,
         1,
         2,
         5,
-        4,
-        1
+        5,
+        1,
+        3,
+        2,
+        3,
+        2
       ]
-  }
+  },
+  {
+    "name":"Tiny",
+    "photo":"https://images.pexels.com/photos/2728264/pexels-photo-2728264.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "scores":[
+        4,
+        1,
+        1,
+        3,
+        5,
+        4,
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+
+    {
+      "name":"Mike",
+      "photo":"https://images.pexels.com/photos/2897531/pexels-photo-2897531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "scores":[
+          2,
+          1,
+          2,
+          1,
+          5,
+          4,
+          2,
+          4,
+          3,
+          4
+        ]
+      },
+      {
+        "name":"Ruth",
+        "photo":"https://images.pexels.com/photos/2771625/pexels-photo-2771625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "scores":[
+            3,
+            1,
+            2,
+            3,
+            5,
+            3,
+            2,
+            4,
+            3,
+            5
+          ]
+        },
 ]
 module.exports = friends;
