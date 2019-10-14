@@ -135,8 +135,8 @@
                             <option value="5">5 (Strongly Agree)</option>
                         </select>
                        
-                        <h5><strong>Drake ALONE no Collaborations</strong></h5>
-                        <p>I see myself as practical, conventional.</p>
+                        <h5><strong>Question 10</strong></h5>
+                        <p>Drake ALONE no Collaborations</p>
                         <select data-placeholder="" class="browser-default" id="q10">
                             <option value="">Choose an option</option>
                             <option value="1">1 (Strongly Disagree)</option>
@@ -154,5 +154,52 @@
                     </section>
        
              </div>
+             <script type="text/javascript">
+             //takes info and sends to friends.js//
+             $(document).ready(function(){
+                $(submitButton).on("click", function() {
+
+                    function verifyForm() {
+                        var isValid= true;
+                        $('.validate').each(function(){
+                            if($(this).val() === ' ') {
+                                isValid = false; }
+                                });
+                                $('.browser-default').each(function(){
+                                    if($(this).val() === ' ') {
+                                        isValid = false; 
+                                    }
+                                })
+
+                            return isValid; }
+
+                                //new info//
+                                if(verifyForm()=== true) {
+                                    var newInfo = {
+                                        name: $('#name').val().trim(),
+                                        proPic: $('#photo').val().trim(),
+                                        scores: [
+                                            $('#question1').val(),
+                                            $('#question2').val(),
+                                            $('#question3').val(),
+                                            $('#question4').val(),
+                                            $('#question5').val(),
+                                            $('#question6').val(),
+                                            $('#question7').val(),
+                                            $('#question8').val(),
+                                            $('#question9').val(),
+                                            $('#question10').val()
+
+
+                                        ]
+
+                                    }
+                                }
+
+                        })
+             }
+                    });
+                });
+             </script>
             </body>
 </html>
