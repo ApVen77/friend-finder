@@ -18,3 +18,4 @@ var friendsPortfolio = [
       ]
   }
 ]
+module.exports = newInfo;
