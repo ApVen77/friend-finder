@@ -14,4 +14,4 @@
 5. And More
 
 
-* See here on Heroku: https://git.heroku.com/friend-finder-no-new-friends.git 
+* See here on Heroku: https://friend-finder-no-new-friends.herokuapp.com/
