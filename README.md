@@ -5,7 +5,7 @@
 
 * Developer: April Long
 * Institute: University of Denver
-* Date Published: October 14, 2019
+* Date Published: October 14, 2017
 * Deployed on Heroku 
 * Made with: 
 1. Javascript and JQuery
