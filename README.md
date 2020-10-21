@@ -23,6 +23,6 @@ cd friend-finder                                          | server.js
 npm install                                               
                                                             
  
-               
-* See here on Heroku: https://friend-finder-no-new-friends.herokuapp.com/
-* See here on Github: https://github.com/ApVen77/friend-finder/
+*  [See here on Heroku:] (https://friend-finder-no-new-friends.herokuapp.com/)          
+
+* [See here on Github:] (https://github.com/ApVen77/friend-finder/)
